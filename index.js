@@ -33,7 +33,7 @@ const frontRoutes = require("./routes/frontend/root.route");
 app.use('/api',frontRoutes)
 
 // react routes
-app.use(express.static(path.join(__dirname, './build')));
+// app.use(express.static(path.join(__dirname, './build')));
 
 
 const PORT = process.env.PORT || 8000;
